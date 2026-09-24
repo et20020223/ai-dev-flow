@@ -1,0 +1,14 @@
+{
+  "name": "ai-dev-flow",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/ai-flow.mjs",
+    "build:skill": "node scripts/build-skill.mjs"
+  }
+}
